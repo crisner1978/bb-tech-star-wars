@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .popover {
+    @apply outline-none bg-blue-600 text-white font-semibold rounded-lg py-2 px-4 text-lg hover:-translate-y-1 transition-all transform duration-150 ease-out hover:shadow-xl
+  }
+}
